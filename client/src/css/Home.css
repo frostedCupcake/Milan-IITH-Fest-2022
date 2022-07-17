@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.demoPage{
+    height: 300vh;
+    width: 20vw;
+}
+.para{
+    height: 15vh;
+    width: 50vh;
+}
+.imggg{
+  height: 400%;
+  width: 100%
+}
+.imggg{
+  height: 400%;
+  width: 100%;
+}
+.run{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+.passport-container{
+ height: 100%;
+ width: 100%
+}
+.para{
+  color: blue;
+}
+.flip{
+  position: relative;
+  text-align: center;
+      top: 05vh;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+}
+

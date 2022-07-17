@@ -1,0 +1,5 @@
+.cardd:hover{
+    transition: 0.3s ease-in-out;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
