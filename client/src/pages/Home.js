@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import logo from '../images/milan_logo.png'
 import '../css/Home.css'
+import Tabs from "../tabs/TabComponents/tab_group1";
 const flipphotos=[
   {
     image: require("../images/photos/2.CR2.jpg")
@@ -133,6 +134,9 @@ export default function Home() {
     {/*graph of overall leaderboard*/}
     <div className="mt-4 text-center">
           <h1>OVERALL LEADERBOARD</h1>
+    </div>
+    <div className="App">
+      <Tabs />
     </div>
   
    {/*second carousel*/}

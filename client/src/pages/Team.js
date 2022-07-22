@@ -72,7 +72,7 @@ export default function Team() {
           </div>
           <div className='row'>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-3'><img className='imgg'src={data.suryaansh} alt="" /><h4>Suryaansh J</h4></div>
-          <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.surya} alt="" /><h4>surya S</h4></div>
+          <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.surya} alt="" /><h4>Surya Sudeep</h4></div>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.ritik} alt="" /><h4>Ritik Pal</h4></div>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.jashwanth} alt="" /><h4>Jashwanth</h4></div>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-3'><img className='imgg'src={data.bhanu} alt="" /><h4>Bhanu Teja</h4></div>
@@ -106,7 +106,7 @@ export default function Team() {
           <div className='row'>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.BRohit} alt="" /><h4>B Rohit</h4></div>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.abhishek} alt="" /><h4>Abhishek G</h4></div>
-          <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.BAnvitha} alt="" /><h4>B Anvitha</h4></div>
+          <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.BAnvitha} alt="" /><h4>Blessy Anvitha</h4></div>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.shreyas} alt="" /><h4>Shreyas W</h4></div>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.shubham} alt="" /><h4>Shubham M</h4></div>
           <div className='col-xs-1 col-sm-6 col-md-4 col-lg-3 col-xl-2'><img className='imgg'src={data.suryaTeja} alt="" /><h4>CHERUKUSURYA TEJA</h4></div>

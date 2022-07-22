@@ -9,9 +9,13 @@ import Team from './pages/Team';
 import Events from './pages/Events';
 import Footer from './components/common/Footer';
 import './App.css';
+import "./css/tabs/tab_group1.css";
+import "./css/tabs/tab_group2.css";
 
 
-function App() {
+
+function App() 
+{
   return (
     <Router>
       <Navbar/>
@@ -24,6 +28,8 @@ function App() {
       </Routes>
       <Footer/>
       </Router>
+      
+
     
   );
 }
