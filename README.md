@@ -4,6 +4,7 @@ All pages except Schedule page done(both jsx and styling) => don't modify anythi
 Schedule page incomplete => I'm not doing it
 Responsiveness => all pages are reponsive 
                 {
+                
                   0 - 600px: phone
                   600px - 900px: Tablet portrait
                   900px - 1200px: Tablet landscape
