@@ -15,6 +15,7 @@
 @media (max-width: 768px) {
   .canvas-container {
     height: 40vh;
+    width: 80vw;
   }
 }
 
