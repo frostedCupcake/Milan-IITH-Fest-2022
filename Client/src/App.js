@@ -3,7 +3,6 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Header from "./components/Header";
 import Members from "./components/Members";
 import Sponsors from "./components/Sponsors";
 import Schedule from "./components/Schedule";
@@ -16,7 +15,6 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/schedule" element={<Schedule />} />
