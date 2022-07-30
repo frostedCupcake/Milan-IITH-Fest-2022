@@ -115,7 +115,7 @@ const Members = () => {
             Web Development and Management
           </h2>
           <ImageDiv image={teamData.suryaansh} name="Suryaansh J" />
-          <ImageDiv image={teamData.surya} name="surya S" />
+          <ImageDiv image={teamData.surya} name="Surya Sudeep" />
           <ImageDiv image={teamData.ritik} name="Ritik Pal" />
           <ImageDiv image={teamData.jaswanth} name="Jaswanth" />
           <ImageDiv image={teamData.bhanu} name="Bhanu Teja" />
@@ -133,7 +133,7 @@ const Members = () => {
             Event & Pronites
           </h2>
           <ImageDiv image={teamData.BRohit} name="B Rohit" />
-          <ImageDiv image={teamData.BAnvitha} name="B Anvitha" />
+          <ImageDiv image={teamData.BAnvitha} name="Blessy Anvitha" />
           <ImageDiv image={teamData.abhishek} name="Abhishek G" />
           <ImageDiv image={teamData.shubham} name="Shubham M" />
           <ImageDiv image={teamData.shreyas} name="Shreyas W" />
@@ -153,7 +153,7 @@ const Members = () => {
           <ImageDiv image={teamData.kaustubh} name="Kaustubh G" />
           <ImageDiv image={teamData.jayBhanushali} name="Bhanushali" />
           <ImageDiv image={teamData.kanak} name="Kanak Lohiya" />
-          <ImageDiv image={teamData.jalaPrajash} name="Jala Prajesh" />
+          <ImageDiv image={teamData.jalaPrajash} name="Jala Prajash" />
         </div>
       </div>
     </div>
