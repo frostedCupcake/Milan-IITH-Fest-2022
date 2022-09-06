@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useEffect, useState } from 'react';
+import Axios from "axios";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -23,24 +23,19 @@ ChartJS.register(
 );
 
 export const options = {
-  animation: {
-    x: {
-      duration: 5000,
-      from: -500
-    },
-    y: {
-      duration: 3000,
-      from: 500
-    }
-  },
+  
 
   plugins: {
     legend: {
       labels: {
           // This more specific font property overrides the global property
+
+      position: 'top',
           font: {
               family:'Sans-serif',             
-              weight: 'bold'
+              weight: 'bold',
+              size:'10',
+              position:'bottom'
 
           }
       }
@@ -98,42 +93,112 @@ export const options = {
   },
 };
 
-const labels = ['ARYABHATTA', 'BHASKARA', 'CHARAKA', 'SUSURUTA', 'KAUTILYA', 'VYASA', 'BRAHMAGUPTA', 'VARAHAMIHIRA', 'MAITREYI', 'GARGI', 'RAMANUJA','KAPILA'];
-
-export const data = {
-  labels,
-  
-  datasets: [
-    
-    {
-      
-      label: 'Sports',
-      data: [20,20,200,50,60,80,80,100,130,130,120,120],
-      backgroundColor:'#D79922',
-      categoryPercentage: 1.1, // notice here 
-      barPercentage: 0.8,
-      
-    },
-    {
-      label: 'Culty',
-      data: [20,160,180,50,60,80,80,100,10,900,120,10],
-      backgroundColor: 'rgb(75, 192, 192)',
-      categoryPercentage: 1.1, // notice here 
-      barPercentage: 0.8,
-    },
-    {
-      label: 'Techy',
-      data: [20,20,210,50,30,80,80,130,130,10,10,10],
-      backgroundColor: 'rgb(53, 162, 235)',
-      categoryPercentage: 1.1, // notice here 
-      barPercentage: 0.8,
-    },
-  ],
-};
-
 
 
 const leader = () => {
+  const [scores,setscores] = useState([]);
+  useEffect(()=>{
+    Axios.get('http://localhost:4000/techy').then((response)=>{
+            setscores(response.data);
+        })
+    setInterval(()=>{
+        Axios.get('http://localhost:4000/techy').then((response)=>{
+            setscores(response.data);
+        })
+    },5000)
+    
+},[])
+  const labels = ['Aryabhatta','Bhaskara','Maitreyi','Gargi', 'CHARAKA', 'SUSURUTA', 'KAUTILYA', 'VYASA', 'BRAHMAGUPTA', 'VARAHAMIHIRA', 'RAMANUJA','KAPILA'];
+  const data = {
+    labels,
+    
+    datasets: [
+      {
+        
+        label: 'Game Jam',
+        data: scores[1],
+        backgroundColor:'#D79922',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+        
+      },
+      {
+        label: 'Robo-soccer',
+        data:  scores[2],
+        backgroundColor: 'rgb(75, 192, 192)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Capture the flag',
+        data: scores[3],
+        backgroundColor: 'rgb(203, 16, 35)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Hackathon',
+        data:  scores[4],
+        backgroundColor: 'rgb(255, 162, 25)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Astronomy Quiz',
+        data: scores[5],
+        backgroundColor: 'rgb(53, 162, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Ideathon',
+        data:  scores[6],
+        backgroundColor: 'rgb(103, 162, 23)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Codegolf',
+        data: scores[7],
+        backgroundColor: 'rgb(53, 2, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Water Rocketry',
+        data:  scores[8],
+        backgroundColor: 'rgb(105, 162, 23)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'CAD',
+        data:  scores[9],
+        backgroundColor: 'rgb(53, 162, 75)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'RC Car Racing',
+        data:  scores[10],
+        backgroundColor: 'rgb(130, 200, 233)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+  
+      {
+        label: 'Solve the case',
+        data:  scores[11],
+        backgroundColor: 'rgb(53, 200, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      
+      
+      
+    ],
+  };
+  
   return (
     <div className="FirstTab">
       <div className="canvas-container">

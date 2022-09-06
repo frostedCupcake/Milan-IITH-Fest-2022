@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useEffect, useState } from 'react';
+import Axios from "axios";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -29,9 +29,13 @@ export const options = {
     legend: {
       labels: {
           // This more specific font property overrides the global property
+
+      position: 'top',
           font: {
               family:'Sans-serif',             
-              weight: 'bold'
+              weight: 'bold',
+              size:'10',
+              position:'bottom'
 
           }
       }
@@ -89,42 +93,159 @@ export const options = {
   },
 };
 
-const labels = ['ARYABHATTA', 'BHASKARA', 'CHARAKA', 'SUSURUTA', 'KAUTILYA', 'VYASA', 'BRAHMAGUPTA', 'VARAHAMIHIRA', 'MAITREYI', 'GARGI', 'RAMANUJA','KAPILA'];
-
-export const data = {
-  labels,
-  
-  datasets: [
-    
-    {
-      
-      label: 'Sports',
-      data: [20,20,200,50,60,80,80,100,130,130,120,120],
-      backgroundColor:'#D79922',
-      categoryPercentage: 1.1, // notice here 
-      barPercentage: 0.8,
-      
-    },
-    {
-      label: 'Culty',
-      data: [20,160,180,50,60,80,80,100,10,90,120,10],
-      backgroundColor: 'rgb(75, 192, 192)',
-      categoryPercentage: 1.1, // notice here 
-      barPercentage: 0.8,
-    },
-    {
-      label: 'Techy',
-      data: [20,20,210,50,30,80,80,130,130,10,1000,10],
-      backgroundColor: 'rgb(53, 162, 235)',
-      categoryPercentage: 1.1, // notice here 
-      barPercentage: 0.8,
-    },
-  ],
-};
-
 
 
 const leader = () => {
+  const [scores,setscores] = useState([]);
+  useEffect(()=>{
+    Axios.get('http://localhost:4000/culty').then((response)=>{
+            setscores(response.data);
+        })
+    setInterval(()=>{
+        Axios.get('http://localhost:4000/culty').then((response)=>{
+            setscores(response.data);
+        })
+    },5000)
+    
+},[])
+  const labels = ['Aryabhatta','Bhaskara','Maitreyi','Gargi', 'CHARAKA', 'SUSURUTA', 'KAUTILYA', 'VYASA', 'BRAHMAGUPTA', 'VARAHAMIHIRA', 'RAMANUJA','KAPILA'];
+  const data = {
+    labels,
+    
+    datasets: [
+      {
+        
+        label: 'Solo Dance',
+        data: scores[1],
+        backgroundColor:'#D79922',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+        
+      },
+      {
+        label: 'Duo-Trio Dance',
+        data:  scores[2],
+        backgroundColor: 'rgb(75, 192, 192)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Group Dance',
+        data: scores[3],
+        backgroundColor: 'rgb(203, 16, 35)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Drama',
+        data:  scores[4],
+        backgroundColor: 'rgb(255, 162, 25)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Photography',
+        data: scores[5],
+        backgroundColor: 'rgb(53, 162, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Low effort Comp',
+        data:  scores[6],
+        backgroundColor: 'rgb(103, 162, 23)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'BMC Codenames',
+        data: scores[7],
+        backgroundColor: 'rgb(53, 2, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Dumb Charades',
+        data:  scores[8],
+        backgroundColor: 'rgb(105, 162, 23)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'General Quiz',
+        data:  scores[9],
+        backgroundColor: 'rgb(53, 162, 75)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Not so sorry',
+        data:  scores[10],
+        backgroundColor: 'rgb(130, 200, 233)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Bands',
+        data:  scores[11],
+        backgroundColor: 'rgb(170, 12, 23)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Solo Sing',
+        data:  scores[12],
+        backgroundColor: 'rgb(53, 200, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      
+      {
+        label: 'Poetry',
+        data:  scores[13],
+        backgroundColor: 'rgb(5, 12, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Junk Art',
+        data: scores[14],
+        backgroundColor: 'rgb(53, 255, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Navarasa',
+        data: scores[15],
+        backgroundColor: 'rgb(255, 187, 23)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Rap',
+        data: scores[16],
+        backgroundColor: 'rgb(53, 255, 0)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Treasure Hunt',
+        data: scores[17],
+        backgroundColor: 'rgb(69, 69, 65)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      {
+        label: 'Fashion show',
+        data: scores[18],
+        backgroundColor: 'rgb(53, 0, 235)',
+        categoryPercentage: 1.1, // notice here 
+        barPercentage: 0.8,
+      },
+      
+    ],
+  };
+  
   return (
     <div className="FirstTab">
       <div className="canvas-container">
