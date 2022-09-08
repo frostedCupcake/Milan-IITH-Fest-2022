@@ -1,5 +1,6 @@
 import { Sequelize, where } from "sequelize";
 import { football } from "../models/footballModel.js";
+import { authenticte } from "./auth.js";
 
 export const getScore = async (req, res) => {
   try {
@@ -12,8 +13,14 @@ export const getScore = async (req, res) => {
 
 export const putScore = async (req, res) => {
   try {
-    await football.create(req.body);
-    res.status(201).json({ message: "Score Noted" });
+    let check = authenticte(req.body.emailId);
+
+    if (check == false) {
+      throw error;
+    } else {
+      await football.create(req.body);
+      res.status(201).json({ message: "Score Noted" });
+    }
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
