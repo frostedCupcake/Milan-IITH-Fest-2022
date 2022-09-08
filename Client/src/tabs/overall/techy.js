@@ -108,7 +108,7 @@ const leader = () => {
     },5000)
     
 },[])
-  const labels = ['Aryabhatta','Bhaskara','Maitreyi','Gargi', 'CHARAKA', 'SUSURUTA', 'KAUTILYA', 'VYASA', 'BRAHMAGUPTA', 'VARAHAMIHIRA', 'RAMANUJA','KAPILA'];
+  const labels = ['ARYABHATTA','BHASKARA','MAITREYI','GARGI', 'CHARAKA', 'SUSURUTA', 'KAUTILYA', 'VYASA', 'BRAHMAGUPTA', 'VARAHAMIHIRA', 'RAMANUJA','KAPILA'];
   const data = {
     labels,
     
