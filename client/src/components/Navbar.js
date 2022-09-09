@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li className="navigation__item">
             <a
-              href="https://heyzine.com/flip-book/59f3755f85.html"
+              href="https://heyzine.com/admin/view?n=59f3755f859492487834a9d38ff7b3100a0aa555.pdf&adminKey=79e6d9c5af70fa7c#page/1"
               className="navigation__link"
             >
               Rulebook
