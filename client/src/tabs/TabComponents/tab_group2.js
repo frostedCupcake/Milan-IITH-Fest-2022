@@ -55,7 +55,7 @@ const Tabs = () => {
           className={activeTab === "tab3" ? "active" : "text-gold"}
           onClick={handleTab3}
         >
-          Culty
+          Culti
         </li>
         <li
           className={activeTab === "tab4" ? "active" : "text-gold"}

@@ -123,7 +123,7 @@ const Leader = () => {
         barPercentage: 0.8,
       },
       {
-        label: "Culty",
+        label: "Culti",
         data: scores[2],
         backgroundColor: "rgb(75, 192, 192)",
         categoryPercentage: 1.1, // notice here

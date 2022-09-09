@@ -29,7 +29,7 @@ const Schedule = () => {
           className={activeTab === "culti" ? "active text-black" : ""}
           onClick={handleTab2}
         >
-          Culty
+          Culti
         </li>
         <li
           className={activeTab === "techy" ? "active text-black" : ""}
