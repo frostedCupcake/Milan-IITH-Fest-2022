@@ -28,18 +28,18 @@ const Footer = React.forwardRef((props, ref) => {
         <div>
           <p className="paragraph footer__email">
             <h3 className="heading-teritiary">contact us</h3>
-            Phone: <br></br>(+91) 9946525172 <br></br>Email us at:<br></br>{" "}
+            Phone: <br></br>(+91) 9946525172 <br></br>Email us at:<br></br>
             milan.oc@gymkhana.iith.ac.in
           </p>
         </div>
 
         <div className="footer__socials">
           <h3 className="heading-teritiary">follow us</h3>
-          <a href="">
+          <a href="https://www.instagram.com/milan_thegc_iith/?igshid=YmMyMTA2M2Y%3D">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/company/milanthegc/"
             style={{
               marginLeft: "1.5rem",
             }}

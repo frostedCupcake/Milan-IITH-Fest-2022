@@ -58,6 +58,15 @@ const Members = () => {
         </div>
         <div>
           <h2 className="heading-secondary members__heading">
+            Public relations
+          </h2>
+          <ImageDiv
+            image={teamData.Akhil_antony}
+            name="Akhil Antony Sebastian"
+          />
+        </div>
+        <div>
+          <h2 className="heading-secondary members__heading">
             Event & Pronites
           </h2>
           <ImageDiv image={teamData.hadiAfnan} name="Hadi Afnan" />

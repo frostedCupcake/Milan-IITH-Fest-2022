@@ -1,11 +1,12 @@
 import * as React from "react";
 import "../sass/main.css";
-import logo1 from "../assets/sponsors/Alumin.png";
+import logo1 from "../assets/sponsors/sk.png";
 import logo2 from "../assets/sponsors/gouravs.png";
-import logo3 from "../assets/sponsors/sachdev.png";
-import logo4 from "../assets/sponsors/sakthi's kitchen.png";
+import logo3 from "../assets/sponsors/redbull.png";
+import logo4 from "../assets/sponsors/pure.png";
 import logo5 from "../assets/sponsors/sbi.png";
-import logo6 from "../assets/sponsors/Tihan.png";
+import logo6 from "../assets/sponsors/siang.png";
+import logo7 from "../assets/sponsors/icic.png";
 
 const Sponsors = () => {
   return (
@@ -78,6 +79,17 @@ const Sponsors = () => {
           <h3 class="title">Tihan</h3>
           <div class="square">
             <img class="square__image" src={logo6} alt="" />
+          </div>
+        </div>
+        <div
+          class="card "
+          style={{
+            backgroundColor: "#1b1a17",
+          }}
+        >
+          <h3 class="title">Tihan</h3>
+          <div class="square">
+            <img class="square__image" src={logo7} alt="" />
           </div>
         </div>
       </div>
