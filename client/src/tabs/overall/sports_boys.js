@@ -97,7 +97,6 @@ const Leader = () => {
       });
     }, 5000);
   }, []);
-  console.log("sb", scores);
   const labels = [
     "CHARAKA",
     "SUSURUTA",

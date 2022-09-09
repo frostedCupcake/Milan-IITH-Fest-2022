@@ -19,7 +19,7 @@ import { Box } from "@mui/material";
 function Schedule() {
   const darkTheme = createTheme({
     typography: {
-      fontSize: "1rem",
+      fontSize: 22,
     },
     palette: {
       mode: "dark",
@@ -86,7 +86,6 @@ function Schedule() {
     ],
   });
 
-  console.log(scores);
   const d = new Date();
   let month = (d.getMonth() + 1).toString();
   let date = d.getDate().toString();
@@ -147,8 +146,9 @@ function Schedule() {
                   >
                     TIME
                   </TableCell>
-                  {tableHeaders.map((el) => (
+                  {tableHeaders.map((el, i) => (
                     <TableCell
+                      key={i}
                       sx={{
                         color: "gold",
                         p: { xs: 0, sm: "1rem" },
@@ -163,9 +163,9 @@ function Schedule() {
                 </TableRow>
               </TableHead>
               <TableBody>
-                {rows.map((row) => (
+                {rows.map((row, i) => (
                   <TableRow
-                    key={row.name}
+                    key={i}
                     sx={{
                       "&:last-child td, &:last-child th": { border: 0 },
                       fontSize: { xs: "1.1rem", sm: "1.5rem" },

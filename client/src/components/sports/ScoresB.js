@@ -36,7 +36,7 @@ function Scores() {
   });
   const darkTheme = createTheme({
     typography: {
-      fontSize: "1rem",
+      fontSize: 22,
     },
     palette: {
       mode: "dark",
@@ -69,14 +69,13 @@ function Scores() {
     "RAMANUJA",
     "KAPILA",
   ];
-  console.log(gameNames.length);
+
   const tableHeaders = ["Block", "Points"].map((el) => el.toUpperCase());
   let itemRows = [];
   for (var event = 0; event < 15; event++) {
     let game = gameNames[event];
     const rows = scores[event + 1];
-    console.log(rows);
-    console.log(game);
+
     const item = (
       <Accordion>
         <AccordionSummary

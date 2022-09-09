@@ -21,21 +21,21 @@ const Section1 = () => {
             will conclude on 18th September
           </p>
         </div>
-        <div class="composition">
+        <div className="composition">
           <img
             src={picture1}
             alt="photo-1"
-            class="composition__photo composition__photo--p1"
+            className="composition__photo composition__photo--p1"
           />
           <img
             src={picture2}
             alt="photo-2"
-            class="composition__photo composition__photo--p2"
+            className="composition__photo composition__photo--p2"
           />
           <img
             src={picture3}
             alt="photo-3"
-            class="composition__photo composition__photo--p3"
+            className="composition__photo composition__photo--p3"
           />
         </div>
       </div>

@@ -36,7 +36,7 @@ function Scores() {
   });
   const darkTheme = createTheme({
     typography: {
-      fontSize: "1rem",
+      fontSize: 22,
     },
     palette: {
       mode: "dark",
@@ -83,8 +83,7 @@ function Scores() {
   for (var event = 0; event < 15; event++) {
     let game = gameNames[event];
     const rows = scores[event + 1];
-    console.log(rows);
-    console.log(game);
+
     const item = (
       <Accordion>
         <AccordionSummary
