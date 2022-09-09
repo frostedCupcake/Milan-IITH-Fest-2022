@@ -159,28 +159,28 @@ const Leader = () => {
         data: scores[1],
         backgroundColor: "#f64432",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Football",
         data: scores[2],
         backgroundColor: "rgb(75, 192, 192)",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "DodgeBall",
         data: scores[3],
         backgroundColor: "rgb(203, 16, 35)",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "VolleyBall",
         data: scores[4],
         backgroundColor: "rgb(255, 162, 25)",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Basketball",
