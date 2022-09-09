@@ -15,8 +15,23 @@ const Tabs = () => {
   };
   return (
     <div className="Tabs">
+      <ul className="nav">
+        <li
+          className={activeTab === "tab1" ? "active" : ""}
+          onClick={handleTab1}
+        >
+          leaderboard
+        </li>
+        <li
+          className={activeTab === "tab2" ? "active" : ""}
+          onClick={handleTab2}
+        >
+            BLOCKS RACE
+        </li>
+      </ul>
+
       <div className="outlet">
-        <FirstTab />
+        {activeTab === "tab1" ? <FirstTab /> : <SecondTab />}
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import * as am5xy from "@amcharts/amcharts5/xy";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 
 
+
 class App extends Component {
   componentDidMount() {
   
@@ -11,16 +12,16 @@ class App extends Component {
       "8":{
         "A": 0,
         "B": 0,
-        "C": 0,
-        "D": 0,
-        "E": 0,
-        "F": 0,
-        "G":0,
+        "C": 10,
+        "D": 10,
+        "E": 10,
+        "F": 10,
+        "G":10,
         "H": 0,
         "I":0,
         "J":0,
         "R": 0,
-        "K":0
+        "K":10
        },
       "9":{
         "A": 10,
@@ -29,12 +30,12 @@ class App extends Component {
         "D": 10,
         "E": 10,
         "F": 10,
-        "G":10,
-        "H": 10,
-        "I":10,
-        "J":10,
+        "G":5,
+        "H": 5,
+        "I":5,
+        "J":5,
         "R": 10,
-        "K":10
+        "K":2
        }
        
     };
@@ -170,17 +171,38 @@ class App extends Component {
         })
       });
     });
-
-    
-    let label = chart.plotContainer.children.push(am5.Label.new(root, {
-      fontSize: "4em",
-      opacity: 0.5,
-      x: am5.p100,
-      y: am5.p100,
-      centerY: am5.p100,
-      centerX: am5.p100,
+  let w=window.innerWidth;
+  console.log(w);
+   let label;
+    if(w>500)
+    {
+    label = chart.plotContainer.children.push(am5.Label.new(root, {
+      fontSize: "5em",
+      fill:"rgba(254,200,60,255)",
+      strokeWidth:"3",
+      stroke:"rgb(255,255,255,255)",
+      opacity: 1,
+      textAlign:"center",
       
+    isMeasured: "falsem",
+    x: 600,
+    y: 250
     }));
+  }
+    if(w<500)
+    {
+      label = chart.plotContainer.children.push(am5.Label.new(root, {
+        fontSize: "3em",
+        fill:"rgba(254,200,60,255)",
+        strokeWidth:"3",
+        stroke:"rgb(255,255,255,255)",
+        opacity: 1,
+        textAlign:"center",
+      isMeasured: "falsem",
+      x: 200,
+      y: 250
+      }));
+    }
     
     // Get series item by category
     function getSeriesItem(category) {

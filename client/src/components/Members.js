@@ -33,9 +33,9 @@ const Members = () => {
           <h2 className="heading-secondary members__heading">
             Hospitality and Infrastructure
           </h2>
+          <ImageDiv image={teamData.anurag} name="M Anurag" />
           <ImageDiv image={teamData.stephen} name="Stephen VS" />
           <ImageDiv image={teamData.sreevani} name="C Sreevani" />
-          <ImageDiv image={teamData.anurag} name="M Anurag" />
         </div>
         <div>
           <h2 className="heading-secondary members__heading">Creatives</h2>
@@ -132,6 +132,7 @@ const Members = () => {
           <h2 className="heading-secondary members__heading">
             Event & Pronites
           </h2>
+          <ImageDiv image={teamData.jalaPrajash} name="Jala Prajash" />
           <ImageDiv image={teamData.BRohit} name="B Rohit" />
           <ImageDiv image={teamData.BAnvitha} name="Blessy Anvitha" />
           <ImageDiv image={teamData.abhishek} name="Abhishek G" />
@@ -153,7 +154,7 @@ const Members = () => {
           <ImageDiv image={teamData.kaustubh} name="Kaustubh G" />
           <ImageDiv image={teamData.jayBhanushali} name="Bhanushali" />
           <ImageDiv image={teamData.kanak} name="Kanak Lohiya" />
-          <ImageDiv image={teamData.jalaPrajash} name="Jala Prajash" />
+        
         </div>
       </div>
     </div>

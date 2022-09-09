@@ -61,23 +61,22 @@ function Scores() {
   // };
 
   const gameNames = [
-    "lawn tennis",
-    "hockey",
-    "table tennis",
-    "volleyball",
-    "cricket",
-    "badminton",
-    "football",
-    "basketball",
-    "dodgeball",
-    "carrom",
-    "chess",
-    "athletics",
-    "aquatics",
-    "weightlifting",
-    "squash",
+    "CRICKET",
+    "FOOTBALL",
+    "DODGE BALL",
+    "VOLLEYBALL",
+    "BASKETBALL",
+    "BADMINTON",
+    "TENNIS",
+    "TABLE TENNIS",
+    "CARROM",
+    "CHESS",
+    "SQUASH",
+    "WEIGHTLIFTING",
+    "AQUATICS",
+    "ATHLETICS",
   ].map((el) => el.toUpperCase());
-  const blockNames = ["Aryabhatta", "Bhaskara", "Maitreyi", "Gargi"];
+  const blockNames = ["ARYABHATTA", "BHASKARA", "MAITREYI", "GARGI"];
   const tableHeaders = ["Block", "Points"].map((el) => el.toUpperCase());
   let itemRows = [];
   for (var event = 0; event < 15; event++) {

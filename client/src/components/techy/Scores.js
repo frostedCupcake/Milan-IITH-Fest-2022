@@ -53,17 +53,17 @@ function Scores() {
   // };
 
   const gameNames = [
-    "Game Jam",
-    "Robo-soccer",
-    "Capture the flag",
-    "Hackathon",
-    "Astronomy Quiz",
-    "Ideathon",
-    "Codegolf",
-    "Water Rocketry",
-    "CAD",
-    "RC Car Racing",
-    "Solve the case",
+    "GAME JAM",
+"ROBO SOCCER",
+"CAPTURE THE FLAG",
+"HACKATHON",
+"ASTRONOMY QUIZ",
+"IDEATHON",
+"CODEGOLF",
+"WATER ROCKETRY",
+"CAD MODELING",
+"RC CAR RACING",
+"SOLVE THE CASE"
   ].map((el) => el.toUpperCase());
   const blockNames = [
     "ARYABHATTA",
