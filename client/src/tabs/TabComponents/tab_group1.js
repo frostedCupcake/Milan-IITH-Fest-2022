@@ -26,7 +26,7 @@ const Tabs = () => {
           className={activeTab === "tab2" ? "active" : ""}
           onClick={handleTab2}
         >
-          Score
+          Blocks Race
         </li>
       </ul>
 
