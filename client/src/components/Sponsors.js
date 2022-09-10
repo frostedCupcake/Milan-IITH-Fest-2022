@@ -19,7 +19,7 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">Alumin</h3>
+          <h3 class="title">Sakthi</h3>
           <div class="square">
             <img class="square__image" src={logo1} alt="" />
           </div>
@@ -42,7 +42,7 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">sachdev</h3>
+          <h3 class="title">Redbull</h3>
           <div class="square">
             <img class="square__image" src={logo3} alt="" />
           </div>
@@ -53,7 +53,7 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">sakthi</h3>
+          <h3 class="title">Pure</h3>
           <div class="square">
             <img class="square__image" src={logo4} alt="" />
           </div>
@@ -76,7 +76,7 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">Tihan</h3>
+          <h3 class="title">Siang</h3>
           <div class="square">
             <img class="square__image" src={logo6} alt="" />
           </div>
@@ -87,7 +87,7 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">Tihan</h3>
+          <h3 class="title">Icic</h3>
           <div class="square">
             <img class="square__image" src={logo7} alt="" />
           </div>
