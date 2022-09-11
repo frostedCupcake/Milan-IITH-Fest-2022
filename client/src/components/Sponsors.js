@@ -14,46 +14,23 @@ const Sponsors = () => {
       <h2 className="heading-secondary sponsors__heading">Sponsors</h2>
       <div class="grid grid-3">
         <div
-          class="card"
+          class="card card__zoom"
           style={{
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">Sakthi</h3>
+          <h3 class="title">Sbi</h3>
           <div class="square">
-            <img class="square__image" src={logo1} alt="" />
+            <img class="square__image" src={logo5} alt="" />
           </div>
         </div>
         <div
-          class="card"
+          class="card card__zoom"
           style={{
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">gouravs</h3>
-          <div class="square">
-            <img class="square__image" src={logo2} alt="" />
-          </div>
-        </div>
-
-        <div
-          class="card"
-          style={{
-            backgroundColor: "#1b1a17",
-          }}
-        >
-          <h3 class="title">Redbull</h3>
-          <div class="square">
-            <img class="square__image" src={logo3} alt="" />
-          </div>
-        </div>
-        <div
-          class="card"
-          style={{
-            backgroundColor: "#1b1a17",
-          }}
-        >
-          <h3 class="title">Pure</h3>
+          <h3 class="title ">pure ev</h3>
           <div class="square">
             <img class="square__image" src={logo4} alt="" />
           </div>
@@ -65,9 +42,9 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">SBI</h3>
+          <h3 class="title">Icici</h3>
           <div class="square">
-            <img class="square__image" src={logo5} alt="" />
+            <img class="square__image" src={logo7} alt="" />
           </div>
         </div>
         <div
@@ -76,9 +53,32 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">Siang</h3>
+          <h3 class="title">redbull</h3>
+          <div class="square">
+            <img class="square__image" src={logo3} alt="" />
+          </div>
+        </div>
+
+        <div
+          class="card"
+          style={{
+            backgroundColor: "#1b1a17",
+          }}
+        >
+          <h3 class="title">eslang</h3>
           <div class="square">
             <img class="square__image" src={logo6} alt="" />
+          </div>
+        </div>
+        <div
+          class="card"
+          style={{
+            backgroundColor: "#1b1a17",
+          }}
+        >
+          <h3 class="title">Sakhti</h3>
+          <div class="square">
+            <img class="square__image" src={logo1} alt="" />
           </div>
         </div>
         <div
@@ -87,9 +87,9 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">Icic</h3>
+          <h3 class="title">rgouras</h3>
           <div class="square">
-            <img class="square__image" src={logo7} alt="" />
+            <img class="square__image" src={logo2} alt="" />
           </div>
         </div>
       </div>

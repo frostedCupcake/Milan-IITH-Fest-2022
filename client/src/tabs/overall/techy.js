@@ -118,35 +118,35 @@ const Leader = () => {
       {
         label: "Game Jam",
         data: scores[1],
-        backgroundColor: "#D79922",
+        backgroundColor: "#9ACD32",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Robo-soccer",
         data: scores[2],
-        backgroundColor: "rgb(75, 192, 192)",
+        backgroundColor: "#EEE8AA",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Capture the flag",
         data: scores[3],
-        backgroundColor: "rgb(203, 16, 35)",
+        backgroundColor: "#9ACD32",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Hackathon",
         data: scores[4],
-        backgroundColor: "rgb(255, 162, 25)",
+        backgroundColor: "#6B8E23",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Astronomy Quiz",
         data: scores[5],
-        backgroundColor: "rgb(53, 162, 235)",
+        backgroundColor: "#6495ED",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
@@ -160,28 +160,28 @@ const Leader = () => {
       {
         label: "Codegolf",
         data: scores[7],
-        backgroundColor: "rgb(53, 2, 235)",
+        backgroundColor: "#000080",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Water Rocketry",
         data: scores[8],
-        backgroundColor: "rgb(105, 162, 23)",
+        backgroundColor: "#8A2BE2",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "CAD",
         data: scores[9],
-        backgroundColor: "rgb(53, 162, 75)",
+        backgroundColor: "#8B008B",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "RC Car Racing",
         data: scores[10],
-        backgroundColor: "rgb(130, 200, 233)",
+        backgroundColor: "#C71585",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
@@ -189,7 +189,7 @@ const Leader = () => {
       {
         label: "Solve the case",
         data: scores[11],
-        backgroundColor: "rgb(53, 200, 235)",
+        backgroundColor: "#FFC0CB",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },

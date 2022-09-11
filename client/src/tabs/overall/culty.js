@@ -118,84 +118,84 @@ const Leader = () => {
       {
         label: "Solo Dance",
         data: scores[1],
-        backgroundColor: "#D79922",
+        backgroundColor: "#C71585",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Duo-Trio Dance",
         data: scores[2],
-        backgroundColor: "rgb(75, 192, 192)",
+        backgroundColor: "#8B008B",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Group Dance",
         data: scores[3],
-        backgroundColor: "rgb(203, 16, 35)",
+        backgroundColor: "#8A2BE2",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Drama",
         data: scores[4],
-        backgroundColor: "rgb(255, 162, 25)",
+        backgroundColor: "#000080",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Photography",
         data: scores[5],
-        backgroundColor: "rgb(53, 162, 235)",
+        backgroundColor: "#6495ED",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Low effort Comp",
         data: scores[6],
-        backgroundColor: "rgb(103, 162, 23)",
+        backgroundColor: "#40E0D0",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "BMC Codenames",
         data: scores[7],
-        backgroundColor: "rgb(53, 2, 235)",
+        backgroundColor: "#20B2AA",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Dumb Charades",
         data: scores[8],
-        backgroundColor: "rgb(105, 162, 23)",
+        backgroundColor: "#6B8E23",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "General Quiz",
         data: scores[9],
-        backgroundColor: "rgb(53, 162, 75)",
+        backgroundColor: "#9ACD32",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Not so sorry",
         data: scores[10],
-        backgroundColor: "rgb(130, 200, 233)",
+        backgroundColor: "#EEE8AA",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Bands",
         data: scores[11],
-        backgroundColor: "rgb(170, 12, 23)",
+        backgroundColor: "#9ACD32",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Solo Sing",
         data: scores[12],
-        backgroundColor: "rgb(53, 200, 235)",
+        backgroundColor: "#6B8E23",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
@@ -203,42 +203,42 @@ const Leader = () => {
       {
         label: "Poetry",
         data: scores[13],
-        backgroundColor: "rgb(5, 12, 235)",
+        backgroundColor: "#6495ED",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Junk Art",
         data: scores[14],
-        backgroundColor: "rgb(53, 255, 235)",
+        backgroundColor: "#000080",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Navarasa",
         data: scores[15],
-        backgroundColor: "rgb(255, 187, 23)",
+        backgroundColor: "#8A2BE2",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Rap",
         data: scores[16],
-        backgroundColor: "rgb(53, 255, 0)",
+        backgroundColor: "#8B008B",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Treasure Hunt",
         data: scores[17],
-        backgroundColor: "rgb(69, 69, 65)",
+        backgroundColor: "#C71585",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Fashion show",
         data: scores[18],
-        backgroundColor: "rgb(53, 0, 235)",
+        backgroundColor: "#FFC0CB",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },

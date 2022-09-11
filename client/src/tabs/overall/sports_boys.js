@@ -114,105 +114,105 @@ const Leader = () => {
       {
         label: "Cricket",
         data: scores[1],
-        backgroundColor: "#D79922",
+        backgroundColor: "#DC143C",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Football",
         data: scores[2],
-        backgroundColor: "rgb(75, 192, 192)",
+        backgroundColor: "#FF7F50",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Hockey",
         data: scores[3],
-        backgroundColor: "rgb(203, 16, 35)",
+        backgroundColor: "#FA8072",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "VolleyBall",
         data: scores[4],
-        backgroundColor: "rgb(255, 162, 25)",
+        backgroundColor: "#FF8C00",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Basketball",
         data: scores[5],
-        backgroundColor: "rgb(53, 162, 235)",
+        backgroundColor: "	#FFD700",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Badminton",
         data: scores[6],
-        backgroundColor: "rgb(103, 162, 23)",
+        backgroundColor: "#EEE8AA",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Tennis",
         data: scores[7],
-        backgroundColor: "rgb(53, 2, 235)",
+        backgroundColor: "#9ACD32",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Table Tennis",
         data: scores[8],
-        backgroundColor: "rgb(105, 162, 23)",
+        backgroundColor: "#6B8E23",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Carrom",
         data: scores[9],
-        backgroundColor: "rgb(53, 162, 75)",
+        backgroundColor: "	#20B2AA",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Chess",
         data: scores[10],
-        backgroundColor: "rgb(130, 200, 233)",
+        backgroundColor: "	#40E0D0	",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Squash",
         data: scores[11],
-        backgroundColor: "rgb(170, 12, 23)",
+        backgroundColor: "#6495ED",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Weightlifting",
         data: scores[12],
-        backgroundColor: "rgb(53, 200, 235)",
+        backgroundColor: "	#000080",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Esports",
         data: scores[13],
-        backgroundColor: "rgb(53, 200, 235)",
+        backgroundColor: "	#8A2BE2",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Aquatics",
         data: scores[14],
-        backgroundColor: "rgb(5, 12, 235)",
+        backgroundColor: "	#8B008B",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Athletics",
         data: scores[15],
-        backgroundColor: "rgb(53, 255, 235)",
+        backgroundColor: "#C71585",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },

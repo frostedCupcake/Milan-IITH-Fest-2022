@@ -118,7 +118,7 @@ const Leader = () => {
       {
         label: "Sports",
         data: scores[1],
-        backgroundColor: "#D79922",
+        backgroundColor: "#228B22",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
