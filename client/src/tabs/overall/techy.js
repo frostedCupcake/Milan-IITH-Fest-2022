@@ -103,7 +103,7 @@ const Leader = () => {
     "MAITREYI",
     "GARGI",
     "CHARAKA",
-    "SUSURUTA",
+    "SUSRUTA",
     "KAUTILYA",
     "VYASA",
     "BRAHMAGUPTA",
