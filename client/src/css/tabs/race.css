@@ -1,0 +1,15 @@
+#flo{
+    display: block;
+    margin:auto;
+    width:800px;
+    height: 500px;
+}
+@media (max-width: 700px)
+{
+    #flo{
+        margin-left:0px;
+        width:320px;
+        height: 400px;
+    }
+
+}

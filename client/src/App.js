@@ -10,6 +10,7 @@ import Schedule from "./components/Schedule";
 import Events from "./components/Events";
 import "./css/tabs/tab_group1.css";
 import "./css/tabs/tab_group2.css";
+import "./css/tabs/race.css";
 
 function App() {
   return (

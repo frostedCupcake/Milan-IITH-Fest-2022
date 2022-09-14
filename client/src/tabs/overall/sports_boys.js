@@ -99,7 +99,7 @@ const Leader = () => {
   }, []);
   const labels = [
     "CHARAKA",
-    "SUSURUTA",
+    "SUSRUTA",
     "KAUTILYA",
     "VYASA",
     "BRAHMAGUPTA",

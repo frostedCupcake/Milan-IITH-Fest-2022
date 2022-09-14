@@ -103,7 +103,7 @@ const Leader = () => {
     "MAITREYI",
     "GARGI",
     "CHARAKA",
-    "SUSURUTA",
+    "SUSRUTA",
     "KAUTILYA",
     "VYASA",
     "BRAHMAGUPTA",
@@ -153,7 +153,7 @@ const Leader = () => {
       {
         label: "Low effort Comp",
         data: scores[6],
-        backgroundColor: "#40E0D0",
+        backgroundColor: "#4b10eb",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
@@ -167,7 +167,7 @@ const Leader = () => {
       {
         label: "Dumb Charades",
         data: scores[8],
-        backgroundColor: "#6B8E23",
+        backgroundColor: "#10e3eb",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
@@ -181,14 +181,14 @@ const Leader = () => {
       {
         label: "Not so sorry",
         data: scores[10],
-        backgroundColor: "#EEE8AA",
+        backgroundColor: "#1026eb",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
       {
         label: "Bands",
         data: scores[11],
-        backgroundColor: "#9ACD32",
+        backgroundColor: "#eb3c10",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
@@ -231,7 +231,7 @@ const Leader = () => {
       {
         label: "Treasure Hunt",
         data: scores[17],
-        backgroundColor: "#C71585",
+        backgroundColor: "#dfed18",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
