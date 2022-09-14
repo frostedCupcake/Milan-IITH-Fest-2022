@@ -3,7 +3,7 @@ const teamData = {
   Akhil_antony: require("../assets/organisers/ANTONY SEBASTIAN.jpg"),
   MD_Adil: require("../assets/organisers/ADIL SALFI.jpeg"),
   sreejith: require("../assets/organisers/Sreejith R R.jpg"),
-  harish: require("../assets/organisers/Harish Madireddi.jpeg"),
+  harish: require("../assets/organisers/Sai Harish.jpeg"),
   aman: require("../assets/organisers/Aman Jagtap (1).jpg"),
   mayuri: require("../assets/organisers/Mayuri_chourasia  Rajesh.jpg"),
   rishi: require("../assets/organisers/Ravulapelly Rishi Kumar.jpg"),

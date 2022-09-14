@@ -5,7 +5,7 @@ import logo2 from "../assets/sponsors/gouravs.png";
 import logo3 from "../assets/sponsors/redbull.png";
 import logo4 from "../assets/sponsors/pure.png";
 import logo5 from "../assets/sponsors/sbi.png";
-import logo6 from "../assets/sponsors/siang.png";
+import logo6 from "../assets/sponsors/isthara.jpeg";
 import logo7 from "../assets/sponsors/icic.png";
 
 const Sponsors = () => {
@@ -65,7 +65,7 @@ const Sponsors = () => {
             backgroundColor: "#1b1a17",
           }}
         >
-          <h3 class="title">eslang</h3>
+          <h3 class="title">isthara</h3>
           <div class="square">
             <img class="square__image" src={logo6} alt="" />
           </div>
