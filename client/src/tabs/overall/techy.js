@@ -118,7 +118,7 @@ const Leader = () => {
       {
         label: "Game Jam",
         data: scores[1],
-        backgroundColor: "#9ACD32",
+        backgroundColor: "#eb1527",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
@@ -139,7 +139,7 @@ const Leader = () => {
       {
         label: "Hackathon",
         data: scores[4],
-        backgroundColor: "#6B8E23",
+        backgroundColor: "#dceb15",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
