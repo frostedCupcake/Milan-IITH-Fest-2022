@@ -55,6 +55,7 @@ function Scores() {
     "CHESS",
     "SQUASH",
     "WEIGHTLIFTING",
+    "ESPORTS",
     "AQUATICS",
     "ATHLETICS",
   ].map((el) => el.toUpperCase());

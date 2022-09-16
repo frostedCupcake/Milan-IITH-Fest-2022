@@ -164,7 +164,7 @@ const Leader = () => {
       {
         label: "Football",
         data: scores[2],
-        backgroundColor: "#FF7F50",
+        backgroundColor: "#ebdc15",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.6,
       },
@@ -187,77 +187,77 @@ const Leader = () => {
         data: scores[5],
         backgroundColor: "#FFD700",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Badminton",
         data: scores[6],
         backgroundColor: "#EEE8AA",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Tennis",
         data: scores[7],
         backgroundColor: "#9ACD32",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Table Tennis",
         data: scores[8],
         backgroundColor: "#6B8E23",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Carrom",
         data: scores[9],
         backgroundColor: "#20B2AA",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Chess",
         data: scores[10],
         backgroundColor: "#40E0D0	",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Squash",
         data: scores[11],
         backgroundColor: "#6495ED",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Weightlifting",
         data: scores[12],
         backgroundColor: "#000080",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Esports",
         data: scores[13],
         backgroundColor: "#8A2BE2",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Aquatics",
         data: scores[14],
         backgroundColor: "#8B008B",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
       {
         label: "Athletics",
         data: scores[15],
         backgroundColor: "#C71585",
         categoryPercentage: 1.1, // notice here
-        barPercentage: 0.8,
+        barPercentage: 0.6,
       },
     ],
   };

@@ -125,7 +125,7 @@ const Leader = () => {
       {
         label: "Duo-Trio Dance",
         data: scores[2],
-        backgroundColor: "#8B008B",
+        backgroundColor: "#eb1532",
         categoryPercentage: 1.1, // notice here
         barPercentage: 0.8,
       },
