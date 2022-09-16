@@ -7,6 +7,7 @@ import logo4 from "../assets/sponsors/pure.png";
 import logo5 from "../assets/sponsors/sbi.png";
 import logo6 from "../assets/sponsors/isthara.jpeg";
 import logo7 from "../assets/sponsors/icic.png";
+import logo8 from "../assets/sponsors/hdfc.png";
 
 const Sponsors = () => {
   return (
@@ -68,6 +69,22 @@ const Sponsors = () => {
           <h3 class="title">isthara</h3>
           <div class="square">
             <img class="square__image" src={logo6} alt="" />
+          </div>
+        </div>
+        <div
+          class="card"
+          style={{
+            backgroundColor: "#1b1a17",
+          }}
+        >
+          <h3 class="title">hdfc</h3>
+          <div
+            class="square"
+            style={{
+              width: "22rem",
+            }}
+          >
+            <img class="square__image" src={logo8} alt="" />
           </div>
         </div>
         <div
