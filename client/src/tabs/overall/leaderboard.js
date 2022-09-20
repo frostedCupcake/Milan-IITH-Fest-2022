@@ -86,17 +86,18 @@ export const options = {
 };
 
 const Leader = () => {
-  const [scores, setscores] = useState([]);
-  useEffect(() => {
-    Axios.get("http://localhost:4000/leaderboard").then((response) => {
-      setscores(response.data);
-    });
-    setInterval(() => {
-      Axios.get("http://localhost:4000/leaderboard").then((response) => {
-        setscores(response.data);
-      });
-    }, 5000);
-  }, []);
+  const [scores, setscores] = useState({'1': [
+    144.7811448	,114.2376142,	82.61183261,	158.3694084,	263.7842126	,88.45696152,	60.6902023,	121.7770726,	119.3970647,	160.0555335,	133.0821103	,52.75684252
+ ],
+ '2': [
+  90.35565524	,76.89842999	,63.76161487	,162.1275232,	94.84139699	,104.1332906,	38.76962512,	25.95322012,	49.02274912	,78.82089074,	160.2050625	,55.11054149
+ ],
+ '3': [
+
+  10.69137562,	23.52102637,	15.68068425,	74.12687099,	151.1047755	,46.32929437,	181.0406272,	61.29722024	,148.9665004,	95.50962224	,175.3385602	,16.39344262
+
+ ]});
+ 
   const labels = [
     "ARYABHATTA",
     "BHASKARA",

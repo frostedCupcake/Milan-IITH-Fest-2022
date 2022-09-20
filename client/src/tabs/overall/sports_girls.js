@@ -86,69 +86,26 @@ export const options = {
 };
 
 const Leader = () => {
-  const [scores, setscores] = useState([]);
-  useEffect(() => {
-    Axios.get("http://localhost:4000/sports_girls").then((response) => {
-      setscores(response.data);
-    });
-    setInterval(() => {
-      Axios.get("http://localhost:4000/sports_girls").then((response) => {
-        setscores(response.data);
-      });
-    }, 5000);
-  }, []);
-  var colorArray = [
-    "#FF6633",
-    "#FFB399",
-    "#FF33FF",
-    "#FFFF99",
-    "#00B3E6",
-    "#E6B333",
-    "#3366E6",
-    "#999966",
-    "#99FF99",
-    "#B34D4D",
-    "#80B300",
-    "#809900",
-    "#E6B3B3",
-    "#6680B3",
-    "#66991A",
-    "#FF99E6",
-    "#CCFF1A",
-    "#FF1A66",
-    "#E6331A",
-    "#33FFCC",
-    "#66994D",
-    "#B366CC",
-    "#4D8000",
-    "#B33300",
-    "#CC80CC",
-    "#66664D",
-    "#991AFF",
-    "#E666FF",
-    "#4DB3FF",
-    "#1AB399",
-    "#E666B3",
-    "#33991A",
-    "#CC9999",
-    "#B3B31A",
-    "#00E680",
-    "#4D8066",
-    "#809980",
-    "#E6FF80",
-    "#1AFF33",
-    "#999933",
-    "#FF3380",
-    "#CCCC00",
-    "#66E64D",
-    "#4D80CC",
-    "#9900B3",
-    "#E64D66",
-    "#4DB380",
-    "#FF4D4D",
-    "#99E6E6",
-    "#6666FF",
-  ];
+  const [scores, setscores] = useState({
+    '1': [ 70, 40, 20, 100 ],
+    '2': [ 100, 0, 40, 70 ],
+    '3': [ 70, 40, 20, 100 ],
+    '4': [ 70, 40, 20, 100 ],
+    '5': [ 100, 0, 40, 70 ],
+    '6': [ 70, 40, 20, 100 ],
+    '7': [ 40, 100, 0, 70 ],
+    '8': [ 70, 20, 40, 100 ],
+    '9': [ 100, 40, 20, 70 ],
+    '10': [ 40, 70, 20, 100 ],
+    '11': [ 10, 50, 20, 35 ],
+    '12': [ 0, 40, 70, 100 ],
+    '13': [ 80, 200, 0, 140 ],
+    '14': [ 84, 210, 147, 42 ],
+    '15': [ 300, 60, 210, 120 ]
+  });
+ 
+
+   
   const labels = ["Aryabhatta", "Bhaskara", "Maitreyi", "Gargi"];
   const data = {
     labels,
